@@ -136,3 +136,28 @@ br {
         width: 10em
 }
 
+div.gallery {
+        border: 0.3px solid #73806e;
+}
+
+div.gallery:hover {
+        border: 3px solid #562e30;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-style: italic;
+        color: #562e30;
+}
+
+div.gallery img {
+        margin-left: 5%;
+        width: 90%;
+        height: 90%;
+}
+
+div.desc {
+        padding: 5px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+}
+
